@@ -1,5 +1,6 @@
 import pygame, sys, random
 from pygame.locals import *
+# komentarz
 
 class Dino:
     def __init__(self):

@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>{% block title %}{% endblock %} - moja aplikacja </title>
+</head>
+<body>
+    <ul id="navigation">
+        <li><a href="{{url_for('index')}}">Home</a></li>
+        <li><a href="{{url_for('about')}}">O mnie</a></li>
+        <li><a href="{{url_for('contact')}}">Kontakt</a></li>
+  </ul>
+
+    <h1>Moja aplikacja</h1>
+    {# Komentarz #}
+    <div id="content">{% block content %}{% endblock %}</div>
+
+</body>
+</html>
